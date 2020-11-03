@@ -8,7 +8,7 @@
 <body>
     <main>
     <?php 
-   $n=200;
+   $n=1000;
 
    echo "2<br>";
    for($i=2;$i<$n;$i++)
