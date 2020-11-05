@@ -1,10 +1,6 @@
 <?php
-if ($_POST['username'] == "John" AND $_POST['password'] == "Rambo")
-{
-    echo "C'est Pas Ma Guerre";
-}
+$nombre = $_POST['number'];
+if ($_POST['number']%2 == 1)
+echo "$nombre est impair";
 else
-{
-    echo "Votre Pire Cauchemar";
-}
-?>
+echo "$nombre est pair";
