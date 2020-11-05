@@ -26,7 +26,7 @@ echo "/";
 echo "\ " ;
 echo "</br>";
 }
-for ($hauteur = $_POST['hauteur'] - 2; $hauteur > 0 ; $hauteur--)
+for ($hauteur = $_POST['hauteur'] - 1; $hauteur > 0 ; $hauteur--)
 {
     $largeur = $_POST['hauteur'];
     $largeur = $largeur * 2;
